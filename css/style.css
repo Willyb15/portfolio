@@ -1,8 +1,3 @@
-/* line 1, ../compass/sass/style.scss */
-body {
-  background: radial-gradient(#898989, #121212);
-}
-
 /* line 4, ../compass/sass/style.scss */
 header {
   background-attachment: scroll;
@@ -137,14 +132,24 @@ h2.section-heading {
   margin: 0;
 }
 
-/* line 131, ../compass/sass/style.scss */
-#loader {
-  position: fixed;
-  z-index: 10000;
-  top: 0;
-  left: 0;
-  height: 100vh;
+/* line 147, ../compass/sass/style.scss */
+#contact img {
+  height: 150px;
+  transition: all 0.4s;
+}
+
+/* line 152, ../compass/sass/style.scss */
+.container-footer {
   width: 100%;
-  background: radial-gradient(#898989, #121212);
+}
+
+/* line 156, ../compass/sass/style.scss */
+.navbar-inner {
   text-align: center;
+  font-size: 10px;
+}
+
+/* line 160, ../compass/sass/style.scss */
+.navbar {
+  margin-bottom: 0;
 }

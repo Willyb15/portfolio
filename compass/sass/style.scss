@@ -1,5 +1,5 @@
 body{
-   background: radial-gradient(#898989,#121212);
+   // background: radial-gradient(#898989,#121212);
 }
 header {
   background-attachment: scroll;
@@ -128,18 +128,38 @@ h2.section-heading{
   font-size: 16px;
   margin: 0;
 }
-#loader{
-    position: fixed;
-    z-index: 10000;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background: radial-gradient(#898989,#121212);
-    text-align:center;
-}
+// #loader{
+//     position: fixed;
+//     z-index: 10000;
+//     top: 0;
+//     left: 0;
+//     height: 100vh;
+//     width: 100%;
+//     background: radial-gradient(#898989,#121212);
+//     text-align:center;
+// }
 // .atom{
 //   position:absolute;
 //   left:50%;
 //   top:50%;
 // }
+
+#contact img{
+    height: 150px;
+    transition: all 0.4s;
+}
+
+.container-footer {
+  width: 100%;
+}
+
+.navbar-inner {
+  text-align: center;
+  font-size: 10px;
+}
+.navbar{
+  margin-bottom:0;
+}
+
+
+
