@@ -1,0 +1,16 @@
+body{
+
+}
+
+a.navbar-brand img{
+	height:50px;
+	position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+div.item img{
+	margin:auto;
+	height:20px;
+	padding:10%;
+}

@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+// html, body {
+//   min-height: 100%;
+// }
+
+// body {
+//   background: radial-gradient(#898989,#121212);
+// }
+
+.circles {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  div {
+    border-radius: 100%;
+    border: 5px solid aqua;
+    box-shadow: 0px 0px 20px aquamarine, inset 0px 0px 20px aquamarine;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    &:nth-child(1) {
+      transform: rotateY(0deg);
+      animation: spinY 2s infinite linear;
+    }
+    &:nth-child(2) {
+      transform: rotateX(0deg);
+      animation: spinX 2s infinite linear;
+    }
+    &:nth-child(3) {
+      border: 5px dashed aqua;
+      transform: rotateZ(0deg);
+      animation: spinZ 1s infinite ease-in-out;
+    }
+  }
+}
+
+@keyframes spinY {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes spinX {
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes spinZ {
+  to {
+    transform: rotateZ(180deg);
+  }
+}
