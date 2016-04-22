@@ -162,7 +162,7 @@ h2.section-heading {
   margin: 0 auto;
   background-color: white;
   text-align: center;
-  padding: 25px;
+  padding: 10px;
 }
 
 /* line 165, ../compass/sass/style.scss */
@@ -171,6 +171,18 @@ h2.section-heading {
   font-style: italic;
   font-size: 16px;
   margin: 0;
+}
+
+/* line 171, ../compass/sass/style.scss */
+#loader {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(#898989, #121212);
+  text-align: center;
 }
 
 /* line 190, ../compass/sass/style.scss */
