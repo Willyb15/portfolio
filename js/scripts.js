@@ -1,8 +1,8 @@
 		
-	// setTimeout(function(){
-	// 	$('#loader').hide();
-	// 	$(window).scrollTop(0);
-	// }, 6000);
+	setTimeout(function(){
+		$('#loader').hide();
+		$(window).scrollTop(0);
+	}, 3000);
 
 	var intFrameHeight = window.innerHeight;
 
