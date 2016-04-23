@@ -76,20 +76,20 @@ video {
 
 /* line 65, ../compass/sass/style.scss */
 #skills {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 300px;
 }
 
 /* line 70, ../compass/sass/style.scss */
 #portfolio {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
 /* line 74, ../compass/sass/style.scss */
 #contact {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
 /* line 79, ../compass/sass/style.scss */
@@ -174,18 +174,6 @@ h2.section-heading {
   font-style: italic;
   font-size: 16px;
   margin: 0;
-}
-
-/* line 175, ../compass/sass/style.scss */
-#loader {
-  position: fixed;
-  z-index: 10000;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  background: radial-gradient(#898989, #121212);
-  text-align: center;
 }
 
 /* line 185, ../compass/sass/style.scss */
