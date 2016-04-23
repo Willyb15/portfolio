@@ -5,4 +5,8 @@
 	}, 3000);
 
 	var intFrameHeight = window.innerHeight;
+	// $("#overlay").hide();
+	setTimeout(function(){
+		$("#overlay").fadeIn(5000)
+	},4000);
 

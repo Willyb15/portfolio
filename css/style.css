@@ -43,14 +43,14 @@ video {
 
 /* line 34, ../compass/sass/style.scss */
 .overlay {
-  width: 400px;
-  height: 400px;
-  border-radius: 2%;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
   background: rgba(0, 0, 0, 0.1);
   display: block;
   position: absolute;
   top: 10%;
-  left: 50%;
+  left: 10%;
 }
 
 /* line 45, ../compass/sass/style.scss */
@@ -59,37 +59,40 @@ video {
   padding-top: 100px;
   color: #fff;
   font-family: inherit;
+  font-size: 60px;
+  opacity: .8;
 }
 
-/* line 52, ../compass/sass/style.scss */
+/* line 55, ../compass/sass/style.scss */
 .overlay p {
   text-align: center;
   width: 80%;
+  font-size: 20px;
   margin: 0 auto;
   color: #fff;
   font-family: inherit;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
-/* line 61, ../compass/sass/style.scss */
+/* line 65, ../compass/sass/style.scss */
 #skills {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-/* line 66, ../compass/sass/style.scss */
+/* line 70, ../compass/sass/style.scss */
 #portfolio {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-/* line 70, ../compass/sass/style.scss */
+/* line 74, ../compass/sass/style.scss */
 #contact {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-/* line 75, ../compass/sass/style.scss */
+/* line 79, ../compass/sass/style.scss */
 .white-container {
   width: 100%;
   margin-top: -5px;
@@ -97,43 +100,43 @@ video {
   background: white;
 }
 
-/* line 107, ../compass/sass/style.scss */
+/* line 111, ../compass/sass/style.scss */
 .service-box {
   margin: 50px auto 0;
   max-width: 400px;
 }
 
-/* line 112, ../compass/sass/style.scss */
+/* line 116, ../compass/sass/style.scss */
 .service-box img {
   height: 150px;
   transition: all 0.4s;
 }
 
-/* line 117, ../compass/sass/style.scss */
+/* line 121, ../compass/sass/style.scss */
 .mean img {
   margin-left: -25px;
 }
 
-/* line 126, ../compass/sass/style.scss */
+/* line 130, ../compass/sass/style.scss */
 #portfolio img {
   height: 300px;
   width: 300px;
 }
 
-/* line 130, ../compass/sass/style.scss */
+/* line 134, ../compass/sass/style.scss */
 h2.section-heading {
   margin-top: 50px;
   font-weight: bold;
   color: black;
 }
 
-/* line 135, ../compass/sass/style.scss */
+/* line 139, ../compass/sass/style.scss */
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
 
-/* line 139, ../compass/sass/style.scss */
+/* line 143, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -141,7 +144,7 @@ h2.section-heading {
   margin: 0 auto;
 }
 
-/* line 145, ../compass/sass/style.scss */
+/* line 149, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: aquamarine;
   position: absolute;
@@ -151,12 +154,12 @@ h2.section-heading {
   -webkit-transition: all ease 0.5s;
 }
 
-/* line 153, ../compass/sass/style.scss */
+/* line 157, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-/* line 157, ../compass/sass/style.scss */
+/* line 161, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
@@ -165,7 +168,7 @@ h2.section-heading {
   padding: 10px;
 }
 
-/* line 165, ../compass/sass/style.scss */
+/* line 169, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -173,7 +176,7 @@ h2.section-heading {
   margin: 0;
 }
 
-/* line 171, ../compass/sass/style.scss */
+/* line 175, ../compass/sass/style.scss */
 #loader {
   position: fixed;
   z-index: 10000;
@@ -185,29 +188,36 @@ h2.section-heading {
   text-align: center;
 }
 
-/* line 190, ../compass/sass/style.scss */
+/* line 185, ../compass/sass/style.scss */
+.atom-text {
+  position: absolute;
+  left: 47%;
+  top: 30%;
+}
+
+/* line 194, ../compass/sass/style.scss */
 #contact img {
   height: 150px;
   transition: all 0.4s;
 }
 
-/* line 194, ../compass/sass/style.scss */
+/* line 198, ../compass/sass/style.scss */
 #contact a {
   color: aquamarine;
 }
 
-/* line 197, ../compass/sass/style.scss */
+/* line 201, ../compass/sass/style.scss */
 .container-footer {
   width: 100%;
 }
 
-/* line 201, ../compass/sass/style.scss */
+/* line 205, ../compass/sass/style.scss */
 .navbar-inner {
   text-align: center;
   font-size: 10px;
 }
 
-/* line 205, ../compass/sass/style.scss */
+/* line 209, ../compass/sass/style.scss */
 .navbar {
   margin-bottom: 0;
 }

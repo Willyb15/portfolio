@@ -32,14 +32,14 @@ video{
   height:100%;
 }
 .overlay {
-  width: 400px;
-  height: 400px;
-  border-radius: 2%;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
   background: rgba(0,0,0,0.1);
   display: block;
   position: absolute;
   top: 10%;
-  left: 50%;
+  left: 10%;
 }
 
 .overlay h1 {
@@ -47,15 +47,19 @@ video{
   padding-top: 100px;
   color: #fff;
   font-family: inherit;
+  font-size:60px;
+  opacity: .8;
+
 }
 
 .overlay p{
   text-align: center;
   width: 80%;
+  font-size:20px;
   margin: 0 auto;
   color: #fff;
   font-family: inherit;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 #skills{
@@ -178,11 +182,11 @@ h2.section-heading{
     background: radial-gradient(#898989,#121212);
     text-align:center;
 }
-// .atom{
-//   position:absolute;
-//   left:50%;
-//   top:50%;
-// }
+.atom-text{
+  position:absolute;
+  left:47%;
+  top:30%;
+}
 // #contact{
 //   margin-top: 100px;
 //   margin-bottom:100px;
