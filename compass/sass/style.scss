@@ -4,17 +4,6 @@ body{
    color:white;
    width:100%;
 }
-header {
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  text-align: center;
-  color: white;
-  height:103%;
-  margin-top: 50px;
-  /*margin: auto;*/
-   /*background-image: url('../img/gc2.jpg');*/
-}
 
 .navbar{
   opacity:.4; 
@@ -24,12 +13,28 @@ header {
 }
 
 #home{
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  // height:103%;
+  margin-top: 50px;
+  /*margin: auto;*/
+   /*background-image: url('../img/gc2.jpg');*/
   width:100%;
+  margin-top: 50px;
+}
+#video-viewport{
+  // width: 104%;
+  // margin-left: -15px;
+  // height:100%;
+  // min-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }
 video{
-  width: 104%;
-  margin-left: -15px;
-  height:100%;
+  min-width:100%;
 }
 .overlay {
   width: 300px;
@@ -172,16 +177,16 @@ h2.section-heading{
   font-size: 16px;
   margin: 0;
 }
-// #loader{
-//     position: fixed;
-//     z-index: 10000;
-//     top: 0;
-//     left: 0;
-//     height: 100vh;
-//     width: 100%;
-//     background: radial-gradient(#898989,#121212);
-//     text-align:center;
-// }
+#loader{
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(#898989,#121212);
+    text-align:center;
+}
 .atom-text{
   position:absolute;
   left:47%;
