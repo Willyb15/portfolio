@@ -1,103 +1,118 @@
 @font-face {
-  font-family: 'gotham-ultra';
-  src: url('../fonts/.eot'), /* IE9 Compat Modes */
-  // src: url('fonts/gotham.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/gotham.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/gotham.ttf')  format('truetype'); /* Safari, Android, iOS */
-   font-weight: 700;
-   font-style: normal;
- }
+    font-family: 'gotham-ultra';
+    src: url("../fonts/.eot"), url("../fonts/gotham.woff") format("woff"), url("../fonts/gotham.ttf") format("truetype");
 
-
-body{
-   background: radial-gradient(#898989,#121212);
-   font-family:'gotham-ultra', 'Roboto', sans-serif;
-   color:white;
-   width:100%;
+    /* Safari, Android, iOS */
+    font-weight: 700;
+    font-style: normal;
+}
+.parallax {
+    height: 550px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed !important;
+    overflow: hidden;
+}
+.parallax background-image{
+  filter: grayscale(1);
 }
 
-.navbar{
-  opacity:.4; 
-}
-.navbar-static-top{
-  margin-top:100px;
+body {
+    background: radial-gradient(#898989, #121212);
+    font-family: 'gotham-ultra', 'Roboto', sans-serif;
+    color: white;
+    width: 100%;
 }
 
-#home{
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  text-align: center;
-  color: white;
-  // height:103%;
-  margin-top: 50px;
-  /*margin: auto;*/
-   /*background-image: url('../img/gc2.jpg');*/
-  width:100%;
-  margin-top: 50px;
+.navbar {
+    opacity: .4;
 }
-#video-viewport{
-  // width: 104%;
-  // margin-left: -15px;
-  // height:100%;
-  // min-width: 100%;
+
+.navbar-static-top {
+    margin-top: 100px;
+}
+
+#home {
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+    // height:103%;
+    margin-top: 50px;
+
+    /*margin: auto;*/
+    /*background-image: url('../img/gc2.jpg');*/
+    width: 100%;
+    margin-top: 50px;
+}
+
+#video-viewport {
+    // width: 104%;
+    // margin-left: -15px;
+    // height:100%;
+    // min-width: 100%;
     min-height: 100%;
     min-width: 100%;
 }
-video{
-  min-width:100%;
+
+video {
+    min-width: 100%;
 }
+
 .overlay {
-  width: 300px;
-  height: 300px;
-  border-radius: 5%;
-  background: rgba(0,0,0,0.1);
-  display: block;
-  position: absolute;
-  top: 10%;
-  left: 10%;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 
 .overlay h1 {
-  text-align: center;
-  padding-top: 100px;
-  color: #fff;
-  font-family: inherit;
-  font-size:60px;
-  opacity: .8;
-
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 60px;
+    opacity: .8;
 }
 
-.overlay p{
-  text-align: center;
-  width: 80%;
-  font-size:20px;
-  margin: 0 auto;
-  color: #fff;
-  font-family: inherit;
-  margin-bottom: 15px;
+.overlay p {
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: inherit;
+    margin-bottom: 15px;
 }
 
-#skills{
-  margin-top: 150px;
-  margin-bottom: 300px;
+#skills {
+    margin-top: 150px;
+    margin-bottom: 300px;
 }
 
-#portfolio{
-  margin-top: 250px;
-  margin-bottom: 250px;
-}
-#contact{
-  margin-top: 250px;
-  margin-bottom: 250px;
+#portfolio {
+    margin-top: 250px;
+    margin-bottom: 250px;
 }
 
-.white-container{
+#contact {
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.white-container {
     width: 100%;
     margin-top: -5px;
     height: 174px;
     background: white;
 }
+
 // .skills-row{
 //   background:white;
 //   width:100%;
@@ -129,13 +144,13 @@ video{
     max-width: 400px;
 }
 
-.service-box img{
+.service-box img {
     height: 150px;
     transition: all 0.4s;
 }
 
 .mean img {
-  margin-left: -25px;
+    margin-left: -25px;
 }
 
 // #portfolio{
@@ -143,88 +158,96 @@ video{
 //   margin-bottom: 100px;
 // }
 
-#portfolio img{
-  height:300px;
-  width:300px;
+#portfolio img {
+    height: 300px;
+    width: 300px;
 }
-h2.section-heading{
-  margin-top: 50px;
-  font-weight: bold;
-  color:black;
+
+h2.section-heading {
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
 }
+
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
+    margin: 0 0 15px;
+    right: 0;
 }
+
 #portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
 }
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: aquamarine;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: all ease 0.5s;
+    background: aquamarine;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease 0.5s;
 }
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: white;
-  text-align: center;
-  padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 16px;
-  margin: 0;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
 }
-#loader{
-    position: fixed;
-    z-index: 10000;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background: radial-gradient(#898989,#121212);
-    text-align:center;
+
+// #loader {
+//     position: fixed;
+//     z-index: 10000;
+//     top: 0;
+//     left: 0;
+//     height: 100vh;
+//     width: 100%;
+//     background: radial-gradient(#898989, #121212);
+//     text-align: center;
+// }
+
+.atom-text {
+    position: absolute;
+    left: 47%;
+    top: 30%;
 }
-.atom-text{
-  position:absolute;
-  left:47%;
-  top:30%;
-}
+
 // #contact{
 //   margin-top: 100px;
 //   margin-bottom:100px;
 // }
-#contact img{
+#contact img {
     height: 150px;
     transition: all 0.4s;
 }
-#contact a{
-  color:aquamarine;
+
+#contact a {
+    color: aquamarine;
 }
+
 .container-footer {
-  width: 100%;
+    width: 100%;
 }
 
 .navbar-inner {
-  text-align: center;
-  font-size: 10px;
-}
-.navbar{
-  margin-bottom:0;
+    text-align: center;
+    font-size: 10px;
 }
 
-
-
+.navbar {
+    margin-bottom: 0;
+}

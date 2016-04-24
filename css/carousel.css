@@ -38,12 +38,19 @@ h3 {
 	-webkit-transition: -webkit-perspective, 1s;
 }
 
+#wrapper:hover {
+-webkit-perspective-origin: 20% 800px;
+}
+
 #image:hover {
-  animation-play-state:paused;
+/*  animation-play-state:paused;
   -o-animation-play-state:paused;
   -moz-animation-play-state:paused;
-	-webkit-animation-play-state:paused;
+	-webkit-animation-play-state:paused;*/
+  /*-webkit-perspective-origin: 50% -1000px;*/
+ 
 }
+
 
 
 @-webkit-keyframes spin {
@@ -98,6 +105,9 @@ h3 {
   -o-animation: spin 10s infinite ease-in;
   -webkit-animation: spin 10s infinite ease-in;
 }
+/*.image.center:hover{
+  -webkit-perspective-origin: 50% -800px;
+}*/
 
 
 
