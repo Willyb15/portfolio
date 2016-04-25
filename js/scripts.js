@@ -1,10 +1,11 @@
+// Full Screens the Loader Page then Auto Scrolls to top of page
 setTimeout(function() {
     $('#loader').hide();
     $(window).scrollTop(0);
 }, 3000);
 
 var intFrameHeight = window.innerHeight;
-// $("#overlay").hide();
+// This is Where the #home Text Fades In
 setTimeout(function() {
     $('.willb').css("visibility", "visible").hide().fadeIn(6000);
 }, 4000);
@@ -23,3 +24,15 @@ setTimeout(function() {
 setTimeout(function() {
     $(".build").css("visibility", "visible").hide().fadeIn(6000);
 }, 9000);
+
+// Fixes navbar when scrolled past headerHeight - headerHeight should === #home height 
+var headerHeight = 800;
+$(window).bind('scroll', function () {
+if ($(window).scrollTop() > headerHeight) {
+    $('#myNav').removeClass('navbar-top');
+    $('#myNav').addClass('navbar-fixed-top');
+} else {
+    $('#myNav').removeClass('navbar-fixed-top');
+    $('#myNav').addClass('navbar-top');
+}
+});

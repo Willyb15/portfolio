@@ -6,22 +6,6 @@
     font-weight: 700;
     font-style: normal;
 }
-.parallax {
-    height: 600px;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed !important;
-    overflow: hidden;
-}
-.parallax background-image{
-  height: 600px;
-}
-.vertical-divider {
-  margin: 10px;
-  font-size: 1em;
-  color: #fff;
-}
-
 body {
     background: radial-gradient(#898989, #121212);
     font-family: 'gotham-ultra', 'Roboto', sans-serif;
@@ -37,16 +21,32 @@ body {
     margin-top: 100px;
 }
 
+.parallax {
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed !important;
+    overflow: hidden;
+}
+.parallax background-image{
+  height: 700px;
+}
+.vertical-divider {
+  margin: 10px;
+  font-size: 1em;
+  color: #fff;
+}
+
 #home {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
     text-align: center;
     color: white;
-    margin-top: 50px;
-    height: 970px;
+    // margin-top: 50px;
+    height: 800px;
     width: 100%;
-    margin-top: 50px;
+    // margin-top: 50px;
 }
 
 #video-viewport {
@@ -56,7 +56,7 @@ body {
 
 video {
     min-width: 100%;
-    height:970px;
+    height:800px;
 }
 
 .overlay {
@@ -112,10 +112,17 @@ video {
     margin-top: 150px;
     margin-bottom: 300px;
 }
-
-.tit img{
-    height: 50px;
+.about{
+    margin-top: 30px;
+    font-style:italic;
+    letter-spacing: 1px;
+    word-spacing: 13px;
+    color:black;
+}
+.about img{
+    height: 75px;
     border-radius:0px;
+    margin-top: 35px;
 }
 
 #portfolio {
