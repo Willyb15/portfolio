@@ -7,14 +7,19 @@
     font-style: normal;
 }
 .parallax {
-    height: 550px;
+    height: 800px;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed !important;
     overflow: hidden;
 }
 .parallax background-image{
-  filter: grayscale(1);
+  height: 500px;
+}
+.vertical-divider {
+  margin: 10px;
+  font-size: 1em;
+  color: #fff;
 }
 
 body {
@@ -38,21 +43,12 @@ body {
     background-size: cover;
     text-align: center;
     color: white;
-
-    // height:103%;
     margin-top: 50px;
-
-    /*margin: auto;*/
-    /*background-image: url('../img/gc2.jpg');*/
     width: 100%;
     margin-top: 50px;
 }
 
 #video-viewport {
-    // width: 104%;
-    // margin-left: -15px;
-    // height:100%;
-    // min-width: 100%;
     min-height: 100%;
     min-width: 100%;
 }
@@ -62,18 +58,19 @@ video {
 }
 
 .overlay {
-    width: 300px;
+    width: 470px;
     height: 300px;
     border-radius: 5%;
     background: rgba(0, 0, 0, 0.1);
     display: block;
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 10%;
+    visibility: hidden;
 }
 
-.overlay h1 {
-    text-align: center;
+.willb{
+      text-align: center;
     padding-top: 100px;
     color: #fff;
     font-family: inherit;
@@ -81,7 +78,24 @@ video {
     opacity: .8;
 }
 
-.overlay p {
+.webdev{
+  font-size: 25px;
+}
+.row.webdev{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+// .overlay h1 {
+//     text-align: center;
+//     padding-top: 100px;
+//     color: #fff;
+//     font-family: inherit;
+//     font-size: 60px;
+//     opacity: .8;
+// }
+
+.overlay p{
     text-align: center;
     width: 80%;
     font-size: 20px;
@@ -89,6 +103,7 @@ video {
     color: #fff;
     font-family: inherit;
     margin-bottom: 15px;
+    display: inline;
 }
 
 #skills {
