@@ -5,6 +5,7 @@ setTimeout(function() {
 }, 3000);
 
 var intFrameHeight = window.innerHeight;
+
 // This is Where the #home Text Fades In
 setTimeout(function() {
     $('.willb').css("visibility", "visible").hide().fadeIn(6000);
@@ -36,3 +37,10 @@ if ($(window).scrollTop() > headerHeight) {
     $('#myNav').addClass('navbar-top');
 }
 });
+
+//Displays Caption on Projects when Mouse hovers 
+  $(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );

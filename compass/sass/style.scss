@@ -9,12 +9,16 @@
 body {
     background: radial-gradient(#898989, #121212);
     font-family: 'gotham-ultra', 'Roboto', sans-serif;
-    color: white;
+    color: aquamarine;
     width: 100%;
 }
 
 .navbar {
     opacity: .4;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: aquamarine;
 }
 
 .navbar-static-top {
@@ -42,7 +46,7 @@ body {
     background-position: center center;
     background-size: cover;
     text-align: center;
-    color: white;
+    color: aquamarine;
     // margin-top: 50px;
     height: 800px;
     width: 100%;
@@ -72,9 +76,9 @@ video {
 }
 
 .willb{
-      text-align: center;
+    text-align: center;
     padding-top: 100px;
-    color: #fff;
+    // color: #fff;
     font-family: inherit;
     font-size: 60px;
     opacity: .8;
@@ -106,6 +110,7 @@ video {
     font-family: inherit;
     margin-bottom: 15px;
     display: inline;
+    color:aquamarine;
 }
 
 #skills {
@@ -139,7 +144,7 @@ video {
     width: 100%;
     margin-top: -5px;
     height: 174px;
-    background: white;
+    background: black;
 }
 
 // .skills-row{
@@ -188,14 +193,15 @@ video {
 // }
 
 #portfolio img {
-    height: 300px;
-    width: 300px;
+    border-radius: 0;
+    height: 250px;
+    // width: 300px;
 }
 
 h2.section-heading {
     margin-top: 50px;
     font-weight: bold;
-    color: black;
+    color: aquamarine;
 }
 
 #portfolio .portfolio-item {
@@ -238,16 +244,16 @@ h2.section-heading {
     margin: 0;
 }
 
-// #loader {
-//     position: fixed;
-//     z-index: 10000;
-//     top: 0;
-//     left: 0;
-//     height: 100vh;
-//     width: 100%;
-//     background: radial-gradient(#898989, #121212);
-//     text-align: center;
-// }
+#loader {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(#898989, #121212);
+    text-align: center;
+}
 
 .atom-text {
     position: absolute;

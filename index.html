@@ -13,6 +13,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<!-- link to cariousel css -->
 	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	<!-- link to hover css -->
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- loader css -->
@@ -51,49 +53,49 @@
 					<span class="build"><p>Build</p></span>
 				</div>
 			</section>
-					<!-- Navigation -->
-		<nav id="myNav" class="navbar navbar-inverse navbar-top">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand page-scroll" href="#home">W</a>
+			<!-- Navigation -->
+			<nav id="myNav" class="navbar navbar-inverse navbar-top">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand page-scroll" href="#home">W</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="hidden">
+								<!-- <a href="#page-top"></a> -->
+							</li>
+							<li>
+								<a class="page-scroll" href="#home">Home</a>
+							</li>
+							<li>
+								<a class="page-scroll" href="#about">Story</a>
+							</li>
+							<li>
+								<a class="page-scroll" href="#skill-header">Skills</a>
+							</li>
+							<li>
+								<a class="page-scroll" href="#portfolio-header">Projects</a>
+							</li>
+							<li>
+								<a class="page-scroll" href="#resume">Resume</a>
+							</li>
+							<li>
+								<a class="page-scroll" href="#contact-header">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
 				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="hidden">
-							<!-- <a href="#page-top"></a> -->
-						</li>
-						<li>
-							<a class="page-scroll" href="#home">Home</a>
-						</li>
-												<li>
-							<a class="page-scroll" href="#about">Story</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#skill-header">Skills</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#portfolio-header">Projects</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#resume">Resume</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#contact-header">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /.navbar-collapse -->
-			</div>
-			<!-- /.container-fluid -->
-		</nav>
+				<!-- /.container-fluid -->
+			</nav>
 			<!-- paralax divider -->
 			<div id="about" class="parallax text-center" style="background-image: url(img/bdtbw.jpg);">
 				<div class="container text-center size-title about">
@@ -101,7 +103,7 @@
 					<h3 class="tit">William received his BBA from The University of Georgia and most recently was Operations Manager of The Snake River Brewing Company, Ski Instructor at Jackson Hole Mountain Resort, and River Guide at Mad River Boat Trips. William decided to switch gears and enter the field of web development. Currently he is enrolled in a 16 week program at Digital Crafts with curriculum covering full-stack web development. His initial skillset was focused around JavaScript, jQuery, HTML, and CSS. Since then he has embraced the backend by learning the LAMP and MEAN stacks. There is still much to be learned.</h3>
 					<img src="img/uga.png">
 					<img src="img/srb.png">
-					<img src="img/jhmr.gif"> 
+					<img src="img/jhmr.gif">
 					<img src="img/mrbt2.jpg">
 					<img src="img/dc.png">
 				</div>
@@ -160,88 +162,63 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 portfolio-item">
-							<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-								<div class="portfolio-hover">
-									<div class="portfolio-hover-content">
-										<i class="fa fa-plus fa-3x"></i>
-									</div>
-								</div>
-								<img src="img/gtnp.jpg" class="img-responsive" alt="">
-							</a>
-							<div class="portfolio-caption">
-								<h4>Project 1</h4>
-								<p class="text-muted">HTML,CSS,JS</p>
-							</div>
+							<figure class="snip1234">
+								<img src="img/swbj3.png">
+								<figcaption>
+								<h3>BlackJack</h3>
+								<p>A single player version of blackjack with a Star Wars Theme. Coded with HTML, CSS, and jQuery in a galaxy not so far away.</p>
+								</figcaption>
+							</figure>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<!-- <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal"> -->
+							<figure class="snip1234">
+								<img src="img/mg.png">
+								<figcaption>
+								<h3>Memory Game</h3>
+								<p>Memory Game to match pairs. Coded with jQuery and uses CSS Transition and Transform properties</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+								</figcaption>
+							</figure>
 						</div>
 						<div class="col-md-4 col-sm-6 portfolio-item">
-							<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-								<div class="portfolio-hover">
-									<div class="portfolio-hover-content">
-										<i class="fa fa-plus fa-3x"></i>
-									</div>
-								</div>
-								<img src="img/ski.jpg" class="img-responsive" alt="">
-							</a>
-							<div class="portfolio-caption">
-								<h4>Project 2</h4>
-								<p class="text-muted">HTML,CSS,JS</p>
-							</div>
+							<figure class="snip1234">
+								<img src="img/sg.png" alt="sample2"/>
+								<figcaption>
+								<h3>Shark Game</h3>
+								<p>Swim as Mr. Shark and attempt to eat a pufferfish. Watch out for the Sea Urchins and Jellies! Coded with Native JavaScript and HTML5 Canvas Tag </p>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<figure class="snip1234">
+								<img src="img/movie.png" alt="sample2"/>
+								<figcaption>
+								<h3>Movie Search</h3>
+								<p>Open Movie Database API allows user to search the database for movies/TVshows/actors/actresses. On page user sees all of the movies currently playing. Coded Using HTML, CSS, and jQuery using AJAX</p>
+								</figcaption>
+							</figure>
 						</div>
 						<div class="col-md-4 col-sm-6 portfolio-item">
-							<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-								<div class="portfolio-hover">
-									<div class="portfolio-hover-content">
-										<i class="fa fa-plus fa-3x"></i>
-									</div>
-								</div>
-								<img src="img/gc.jpg" class="img-responsive" alt="">
-							</a>
-							<div class="portfolio-caption">
-								<h4>Project 3</h4>
-								<p class="text-muted">HTML,CSS,JS</p>
-							</div>
+							<figure class="snip1234">
+								<img src="img/finance.png">
+								<figcaption>
+								<h3>Yahoo Finance API</h3>
+								<p>Use Stock Ticker to search for yahoo database for financial statistics and filter data by category. Coded with HTML, CSS< and jQuery AJAX</p>
+								</figcaption>
+							</figure>
 						</div>
 						<div class="col-md-4 col-sm-6 portfolio-item">
-							<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-								<div class="portfolio-hover">
-									<div class="portfolio-hover-content">
-										<i class="fa fa-plus fa-3x"></i>
-									</div>
-								</div>
-								<img src="img/srb.png" class="img-responsive" alt="">
-							</a>
-							<div class="portfolio-caption">
-								<h4>Project 4</h4>
-								<p class="text-muted">Angular.js,HTML,CSS</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 portfolio-item">
-							<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-								<div class="portfolio-hover">
-									<div class="portfolio-hover-content">
-										<i class="fa fa-plus fa-3x"></i>
-									</div>
-								</div>
-								<img src="img/ski.jpg" class="img-responsive" alt="">
-							</a>
-							<div class="portfolio-caption">
-								<h4>Project 5</h4>
-								<p class="text-muted">HTML,CSS,Node,P4</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 portfolio-item">
-							<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-								<div class="portfolio-hover">
-									<div class="portfolio-hover-content">
-										<i class="fa fa-plus fa-3x"></i>
-									</div>
-								</div>
-								<img src="img/cm.jpeg" class="img-responsive" alt="">
-							</a>
-							<div class="portfolio-caption">
-								<h4>Project 6</h4>
-								<p class="text-muted">Express.js, Angular</p>
-							</div>
+							<figure class="snip1234">
+								<img src="img/usa.png"/>
+								<figcaption>
+								<h3>SVG MAP</h3>
+								<p>Interactive Map drawn with SVG's with Electoral Vote data bound inside. Developed using HTML,CSS, and Angular.js</p>
+								</figcaption>
+							</figure>
 						</div>
 					</div>
 				</div>
