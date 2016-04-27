@@ -70,7 +70,7 @@ video {
     background: rgba(0, 0, 0, 0.1);
     display: block;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 10%;
     visibility: hidden;
 }
@@ -82,6 +82,14 @@ video {
     font-family: inherit;
     font-size: 60px;
     opacity: .8;
+}
+
+.icon img{
+    // display: block;
+    height: 100px;
+    margin-bottom: -17px;
+    border-radius: 0;
+    opacity: .7;
 }
 
 .webdev{
@@ -131,6 +139,7 @@ video {
 }
 
 #portfolio {
+    background-image: url("../img/bg.jpg");
     margin-top: 250px;
     margin-bottom: 250px;
 }

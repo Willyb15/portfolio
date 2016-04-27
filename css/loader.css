@@ -1,4 +1,4 @@
-/* line 16, ../../compass/sass/loader.scss */
+/* line 16, ../compass/sass/loader.scss */
 .circles {
   position: absolute;
   width: 60px;
@@ -9,7 +9,7 @@
   left: 0px;
   right: 0px;
 }
-/* line 25, ../../compass/sass/loader.scss */
+/* line 25, ../compass/sass/loader.scss */
 .circles div {
   border-radius: 100%;
   border: 5px solid aqua;
@@ -20,17 +20,17 @@
   top: 50%;
   left: 50%;
 }
-/* line 34, ../../compass/sass/loader.scss */
+/* line 34, ../compass/sass/loader.scss */
 .circles div:nth-child(1) {
   transform: rotateY(0deg);
   animation: spinY 2s infinite linear;
 }
-/* line 38, ../../compass/sass/loader.scss */
+/* line 38, ../compass/sass/loader.scss */
 .circles div:nth-child(2) {
   transform: rotateX(0deg);
   animation: spinX 2s infinite linear;
 }
-/* line 42, ../../compass/sass/loader.scss */
+/* line 42, ../compass/sass/loader.scss */
 .circles div:nth-child(3) {
   border: 5px dashed aqua;
   transform: rotateZ(0deg);

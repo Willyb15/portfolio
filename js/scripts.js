@@ -25,6 +25,9 @@ setTimeout(function() {
 setTimeout(function() {
     $(".build").css("visibility", "visible").hide().fadeIn(6000);
 }, 9000);
+setTimeout(function() {
+    $(".icon").css("visibility", "visible").hide().fadeIn(6000);
+}, 3500);
 
 // Fixes navbar when scrolled past headerHeight - headerHeight should === #home height 
 var headerHeight = 800;
