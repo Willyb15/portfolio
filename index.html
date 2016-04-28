@@ -52,7 +52,6 @@
 					<span class="code"><p>Code</p></span>
 					<span class="vertical-divider">|</span>
 					<span class="build"><p>Build</p></span>
-
 				</div>
 			</section>
 			<!-- Navigation -->
@@ -67,7 +66,7 @@
 						<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand page-scroll" href="#home">
-						<span class="icon-nav"> <img src="img/wb3.png"></span>
+							<span class="icon-nav"> <img src="img/wb.gif"></span>
 							
 						</a>
 					</div>
@@ -247,40 +246,84 @@
 				</div>
 			</div>
 			<!-- Contact Content Section -->
-			<section id="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<h3>Want to tell me something awesome?</h3>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-6">
+						<div id="contact-me">
+							<h2>CONNECT</h2>
+							<div class="line">
+							</div>
+							<div id="something-sweet3" class="wow fadeInLeft animated">
+								TELL ME SOMETHING AWESOME
+							</div>
+							<!-- form work -->
+							<form id="contact-me-form" name="contactMeForm" action="http://stephentiedemann.com/mail.php" method="post">
+								<div id="left">
+									<div class="form-group wow slideInUp animated" id="name-wrapper">
+										<label class="labels" for="names">
+											<input name="name" type="text" class="form-control" placeholder="Name..." id="names">
+											<span id="name-error" class="error-text"></span>
+										</label>
+									</div>
+									<div class="form-group wow slideInUp animated">
+										<label class="labels" for="email">
+											<input type="email" class="form-control" placeholder="Email..." id="email" name="email">
+											<span class="error"></span>
+										</label>
+									</div>
+									<div class="form-group wow slideInUp animated">
+										<label class="labels" for="phone">
+											<input type="tel" class="form-control" placeholder="Telephone..." id="phone" name="phone">
+										</label>
+									</div>
+									
+								</div>
+								<div id="right">
+									<div class="form-group wow slideInUp animated" id="message-wrapper">
+										<label class="labels" for="message" id="messageIN">
+											<textarea name="message" class="form-control" id="message" placeholder="Message..."></textarea>
+											<span id="message-error" class="error-text"></span>
+										</label>
+									</div>
+								</div>
+								<button type="submit" class="btn btn-default wow slideInUp animated">Submit</button>
+							</form>
 						</div>
-						<a href="https://github.com/Willyb15" target="_blank"><div class="col-sm-3 text-center">
-							<img src="img/gh2.png">
-							<p>Github Repos</p>
-						</div></a>
-						<a href="https://www.linkedin.com/in/william-bryant-99515a14?trk=hp-identity-name" target="_blank"><div class="col-sm-3 text-center">
-							<img src="img/li.png">
-							<p>LinkedIn</p>
-						</div></a>
-						<a href="mailto:william.steen.bryant@gmail.com"><div class="col-sm-3 text-center">
-							</i>
-							<img src="img/gmail2.png">
-							<p>william.steen.bryant@gmail.com</p>
-						</div></a>
-						<a href="../WillBryantRes.pdf" target="_blank"><div class="col-sm-3 text-center">
-							<img src="img/anon1.png">
-							<p>Resume</p>
-						</div></a>
 					</div>
-				</div>
-			</section>
-			<!-- Footer Section -->
-			<div class="container-footer">
-				<div id="navBar" class="navbar navbar-inverse navbar-static-bottom">
-					<div class="navbar-inner">
-						<span class="navbar-text copyright">Copyright &copy; Will's Website 2016</span>
-						<span class="navbar-text america">Certified American</span>
-					</div>
-				</div>
-			</div>
-		</body>
-	</html>
+					<div class="col-sm-6 contact-icon">
+						<div class="col-sm-3 text-center icon-div">
+							<a href="https://github.com/Willyb15" target="_blank">
+								<img src="img/gh2.png">
+								<p>Github Repos</p>
+							</div></a>
+							<div class="col-sm-3 text-center icon-div">
+								<a href="https://www.linkedin.com/in/william-bryant-99515a14?trk=hp-identity-name" target="_blank">
+									<img src="img/li.png">
+									<p>LinkedIn</p>
+								</div></a>
+								
+								<!-- <div class="col-sm-3 text-center">
+									<a href="mailto:william.steen.bryant@gmail.com">
+												<img src="img/gmail2.png">
+												<p>william.steen.bryant@gmail.com</p>
+									</div></a> -->
+									
+									<div class="col-sm-3 text-center ion-div">
+										<a href="../WillBryantRes.pdf" target="_blank">
+											<img src="img/anon1.png">
+											<p>Resume</p>
+										</div></a>
+									</div>
+								</div>
+							</div>
+							<!-- Footer Section -->
+							<div class="container-footer">
+								<div id="navBar" class="navbar navbar-inverse navbar-static-bottom">
+									<div class="navbar-inner">
+										<span class="navbar-text copyright">Copyright &copy; Will's Website 2016</span>
+										<span class="navbar-text america">Certified American</span>
+									</div>
+								</div>
+							</div>
+						</body>
+					</html>
