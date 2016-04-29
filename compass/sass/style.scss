@@ -8,6 +8,7 @@
 }
 body {
      background-image: url(../img/bg.jpg);
+     background-repeat:space;
     text-shadow: 0 0 0.1em #b3caf6, 0 0 0.2em #b3caf6;
     // background: radial-gradient(#898989, #121212);
     font-family: 'gotham-ultra', 'Roboto', sans-serif;
@@ -35,8 +36,8 @@ body {
     background-attachment: fixed !important;
     overflow: hidden;
 }
-.parallax background-image{
-  height: 700px;
+.parallax middle img{
+  height: 300px;
 }
 .vertical-divider {
   margin: 10px;
@@ -147,19 +148,19 @@ video {
 }
 
 #portfolio {
-    background-image: url("../img/bg.jpg");
-    margin-top: 250px;
-    margin-bottom: 250px;
+    // background-image: url("../img/bg.jpg");
+    // margin-top: 20px;
+    // margin-bottom: 20px;
 }
 
 #contact {
-    margin-top: 250px;
-    margin-bottom: 250px;
+    // margin-top: 250px;
+    // margin-bottom: 250px;
 }
 
 .white-container {
     width: 100%;
-    margin-top: -5px;
+    // margin-top: -5px;
     height: 174px;
     background: black;
 }
@@ -222,8 +223,8 @@ h2.section-heading {
 }
 
 #portfolio .portfolio-item {
-    margin: 0 0 15px;
-    right: 0;
+    box-sizing:border-box;
+    margin: 30px 0px 10px 0px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -261,16 +262,16 @@ h2.section-heading {
     margin: 0;
 }
 
-#loader {
-    position: fixed;
-    z-index: 10000;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background: radial-gradient(#898989, #121212);
-    text-align: center;
-}
+// #loader {
+//     position: fixed;
+//     z-index: 10000;
+//     top: 0;
+//     left: 0;
+//     height: 100vh;
+//     width: 100%;
+//     background: radial-gradient(#898989, #121212);
+//     text-align: center;
+// }
 
 .atom-text {
     position: absolute;
@@ -304,6 +305,10 @@ h2.section-heading {
     margin-bottom: 0;
 }
 // The contact section
+#contact-wrapper{
+    margin-top: 150px;
+    margin-bottom:200px;
+}
 #contact-me{
     margin-left: 15px;
 }
