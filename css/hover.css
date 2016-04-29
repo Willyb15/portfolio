@@ -9,8 +9,8 @@
   max-width: 310px;
   max-height: 250px;
   width: 100%;
-  color: aquamarine;
-  text-align: left;
+    color: white;
+    text-shadow: 0 0 0.1em black, 0 0 0.2em black;  text-align: left;
   /*background-color: #07090c;*/
   font-size: 16px;
   -webkit-perspective: 50em;
@@ -53,7 +53,7 @@
   text-transform: uppercase;
 }
 .snip1234 p {
-  font-size: 0.8em;
+  font-size: 1.1em;
   font-weight: 500;
   margin: 0 0 15px;
 }

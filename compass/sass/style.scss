@@ -15,7 +15,7 @@ body {
     // background: radial-gradient(#898989, #121212);
     font-family: 'gotham-ultra', 'Roboto', sans-serif;
     color: aquamarine;
-    width: 100%;
+    width: 102%;
 }
 
 .navbar {
@@ -40,6 +40,7 @@ body {
 
 .parallax middle img {
     height: 300px;
+    width: 100%;
 }
 
 .vertical-divider {
@@ -222,6 +223,7 @@ video {
     margin-top: 100px;
     color:black;
     font-size: 40px;
+    min-width:75%;
 }
 
 // #portfolio{
@@ -245,6 +247,7 @@ h2.section-heading {
 #portfolio .portfolio-item {
     box-sizing: border-box;
     margin: 30px 0px 10px 0px;
+    min-width: 33.33%;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -327,9 +330,14 @@ h2.section-heading {
 
 // The contact section
 #contact-wrapper {
-    margin-top: 150px;
-    margin-bottom: 200px;
+     background-image: url(../img/bg.jpg);
+     background-repeat:repeat-x;
 }
+.icon-wrapper{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
 
 #contact-me {
     margin-left: 15px;
