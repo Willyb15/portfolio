@@ -1,8 +1,8 @@
 // Full Screens the Loader Page then Auto Scrolls to top of page
-// setTimeout(function() {
-//     $('#loader').hide();
-//     $(window).scrollTop(0);
-// }, 3000);
+setTimeout(function() {
+    $('#loader').hide();
+    $(window).scrollTop(0);
+}, 3000);
 
 var intFrameHeight = window.innerHeight;
 
@@ -30,20 +30,23 @@ setTimeout(function() {
 }, 3500);
 
 // Fixes navbar when scrolled past headerHeight - headerHeight should === #home height 
-var headerHeight = 800;
-$(window).bind('scroll', function () {
-if ($(window).scrollTop() > headerHeight) {
-    $('#myNav').removeClass('navbar-top');
-    $('#myNav').addClass('navbar-fixed-top');
-} else {
-    $('#myNav').removeClass('navbar-fixed-top');
-    $('#myNav').addClass('navbar-top');
-}
+var headerHeight = (self.innerHeight-200+"px");
+$(window).bind('scroll', function() {
+    if ($(window).scrollTop() > innerHeight) {
+        $('#myNav').removeClass('navbar-top');
+        $('#myNav').addClass('navbar-fixed-top');
+        $('#myNav').fadeIn(2000).css('display',"visible");
+    } else {
+        $('#myNav').fadeOut(2000).hide(2000);
+        // $('#myNav').removeClass('navbar-fixed-top');
+        // $('#myNav').addClass('navbar-top');
+
+    }
 });
 
 //Displays Caption on Projects when Mouse hovers 
-  $(".hover").mouseleave(
-    function () {
-      $(this).removeClass("hover");
+$(".hover").mouseleave(
+    function() {
+        $(this).removeClass("hover");
     }
-  );
+);

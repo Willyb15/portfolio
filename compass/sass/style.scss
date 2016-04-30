@@ -9,17 +9,19 @@
 
 body {
     background-image: url(../img/bg.jpg);
+    background-size:auto;
     background-repeat: space;
     text-shadow: 0 0 0.1em #b3caf6, 0 0 0.2em #b3caf6;
-
     // background: radial-gradient(#898989, #121212);
     font-family: 'gotham-ultra', 'Roboto', sans-serif;
     color: aquamarine;
     width: 102%;
+    overflow-x: hidden;
 }
 
 .navbar {
     opacity: 1;
+    display:none;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -38,10 +40,10 @@ body {
     overflow: hidden;
 }
 
-.parallax middle img {
-    height: 300px;
-    width: 100%;
+.parallax.middle{
+    min-width: 500px;
 }
+
 
 .vertical-divider {
     margin: 10px;
@@ -55,22 +57,16 @@ body {
     background-size: cover;
     text-align: center;
     color: aquamarine;
-
-    // margin-top: 50px;
-    height: 800px;
-    width: 100%;
-
-    // margin-top: 50px;
 }
 
 #video-viewport {
-    min-height: 100%;
-    min-width: 100%;
+    min-width: 900px;
 }
 
 video {
-    min-width: 100%;
-    height: 800px;
+  width: 100%    !important;
+  height: auto   !important;
+  margin-bottom: -6px;
 }
 
 .overlay {
@@ -141,12 +137,19 @@ video {
 }
 
 #skills {
-    margin-top: 150px;
-    margin-bottom: 300px;
+    background-image: url("../img/bg.jpg");
+    background-size:auto;
+    height:600px;
+    overflow:hidden;
+}
+
+.revolving-row{
+    margin-top: 25px;
 }
 
 .about {
-    margin-top: 30px;
+    min-width: 700px;
+    margin-top: 20px;
     font-style: italic;
     letter-spacing: 1px;
     word-spacing: 13px;
@@ -161,6 +164,7 @@ video {
 
 #portfolio {
     background-image: url("../img/bg.jpg");
+    background-size:auto;
 
     // margin-top: 20px;
     // margin-bottom: 20px;
@@ -285,16 +289,16 @@ h2.section-heading {
     margin: 0;
 }
 
-// #loader {
-//     position: fixed;
-//     z-index: 10000;
-//     top: 0;
-//     left: 0;
-//     height: 100vh;
-//     width: 100%;
-//     background: radial-gradient(#898989, #121212);
-//     text-align: center;
-// }
+#loader {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(#898989, #121212);
+    text-align: center;
+}
 
 .atom-text {
     position: absolute;
@@ -331,7 +335,7 @@ h2.section-heading {
 // The contact section
 #contact-wrapper {
      background-image: url(../img/bg.jpg);
-     background-repeat:repeat-x;
+     background-size: auto;
 }
 .icon-wrapper{
     margin-top: 100px;
