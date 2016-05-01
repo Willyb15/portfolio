@@ -219,11 +219,11 @@ h2.section-heading {
   box-sizing: border-box;
   margin: 30px 0px 10px 0px;
   min-width: 33.33%;
+  visibility: hidden;
 }
 
-/* line 257, ../compass/sass/style.scss */
+/* line 258, ../compass/sass/style.scss */
 #portfolio .portfolio-item .portfolio-link {
-  display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
@@ -259,18 +259,6 @@ h2.section-heading {
   font-style: italic;
   font-size: 16px;
   margin: 0;
-}
-
-/* line 292, ../compass/sass/style.scss */
-#loader {
-  position: fixed;
-  z-index: 10000;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  background: radial-gradient(#898989, #121212);
-  text-align: center;
 }
 
 /* line 303, ../compass/sass/style.scss */
