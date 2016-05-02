@@ -1,5 +1,5 @@
 ## Building a Portfolio Website with HTML, CSS, jQuery
-###If you're reading this...Thanks for stalking me...You're Welcome
+###If you're reading this, You're Welcome. My super awesome website lies within. Thanks for stalking!
 ![alt text](img/ss.png "Description goes here")
 <!--![My image](Willyb15.github.com/photo-gallery/Images/image1.jpg)-->
 ###This is me saving a copy to the inter-web and making git pulls from AWS from this URL
