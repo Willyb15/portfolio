@@ -1,8 +1,8 @@
 // Full Screens the Loader Page then Auto Scrolls to top of page
-// setTimeout(function() {
-//     $('#loader').hide();
-//     $(window).scrollTop(0);
-// }, 3000);
+setTimeout(function() {
+    $('#loader').hide();
+    $(window).scrollTop(0);
+}, 3000);
 
 var intFrameHeight = window.innerHeight;
 
@@ -36,7 +36,7 @@ $(window).bind('scroll', function() {
     if ($(window).scrollTop() > innerHeight) {
         $('#myNav').removeClass('navbar-top');
         $('#myNav').addClass('navbar-fixed-top');
-        $('#myNav').fadeIn(2000).css('display',"visible");
+        $('#myNav').fadeIn(2000).css('display', "visible");
     } else {
         $('#myNav').fadeOut(2000).hide(2000);
         // $('#myNav').removeClass('navbar-fixed-top');
@@ -48,11 +48,10 @@ $(window).bind('scroll', function() {
 
 // Makes The Project section zoom in when scrolled past 2700
 $(window).bind('scroll', function() {
-$('#portfolio').bind('scroll', function() {
-    // $('#portfolio').scroll(function(){
-        $('.portfolio-item').css("visibility", "visible").addClass('wow zoomInDown animated');
+        if ($(window).scrollTop() > innerHeight + 2000) {
+            $('.portfolio-item').addClass('wow zoomInDown animated');
+        }
     });
-});
 
 // Makes The Project section zoom in when scrolled past 2700
 // $(window).bind('scroll', function() {

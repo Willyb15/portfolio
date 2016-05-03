@@ -219,7 +219,6 @@ h2.section-heading {
   box-sizing: border-box;
   margin: 30px 0px 10px 0px;
   min-width: 33.33%;
-  visibility: hidden;
 }
 
 /* line 258, ../compass/sass/style.scss */
@@ -261,68 +260,86 @@ h2.section-heading {
   margin: 0;
 }
 
-/* line 303, ../compass/sass/style.scss */
+/* line 292, ../compass/sass/style.scss */
+#portfolio a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 297, ../compass/sass/style.scss */
+#loader {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(#898989, #121212);
+  text-align: center;
+}
+
+/* line 308, ../compass/sass/style.scss */
 .atom-text {
   position: absolute;
   left: 47%;
   top: 30%;
 }
 
-/* line 313, ../compass/sass/style.scss */
+/* line 318, ../compass/sass/style.scss */
 .contact-icon img {
   height: 125px;
   transition: all 0.4s;
 }
 
-/* line 318, ../compass/sass/style.scss */
+/* line 323, ../compass/sass/style.scss */
 #contact a {
   color: aquamarine;
 }
 
-/* line 322, ../compass/sass/style.scss */
+/* line 327, ../compass/sass/style.scss */
 .container-footer {
   width: 100%;
 }
 
-/* line 326, ../compass/sass/style.scss */
+/* line 331, ../compass/sass/style.scss */
 .navbar-inner {
   text-align: center;
   font-size: 10px;
 }
 
-/* line 331, ../compass/sass/style.scss */
+/* line 336, ../compass/sass/style.scss */
 .navbar {
   margin-bottom: 0;
 }
 
-/* line 336, ../compass/sass/style.scss */
+/* line 341, ../compass/sass/style.scss */
 #contact-wrapper {
   background-image: url(../img/bg.jpg);
   background-size: auto;
 }
 
-/* line 340, ../compass/sass/style.scss */
+/* line 345, ../compass/sass/style.scss */
 .icon-wrapper {
   margin-top: 100px;
   margin-bottom: 150px;
 }
 
-/* line 346, ../compass/sass/style.scss */
+/* line 351, ../compass/sass/style.scss */
 #contact-me {
   margin-left: 15px;
 }
 
-/* line 350, ../compass/sass/style.scss */
+/* line 355, ../compass/sass/style.scss */
 .contact-icon {
   margin-top: 100px;
 }
 
-/* line 354, ../compass/sass/style.scss */
+/* line 359, ../compass/sass/style.scss */
 #message.form-control {
   height: 200px;
 }
 
-/* line 358, ../compass/sass/style.scss */
+/* line 363, ../compass/sass/style.scss */
 .labels {
   width: 100%;
 }
