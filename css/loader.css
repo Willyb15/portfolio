@@ -12,8 +12,8 @@
 /* line 25, ../compass/sass/loader.scss */
 .circles div {
   border-radius: 100%;
-  border: 5px solid aqua;
-  box-shadow: 0px 0px 20px aquamarine, inset 0px 0px 20px aquamarine;
+  border: 5px solid white;
+  box-shadow: 0px 0px 20px black, inset 0px 0px 20px black;
   height: 50px;
   width: 50px;
   position: absolute;
@@ -32,7 +32,7 @@
 }
 /* line 42, ../compass/sass/loader.scss */
 .circles div:nth-child(3) {
-  border: 5px dashed aqua;
+  border: 5px dashed white;
   transform: rotateZ(0deg);
   animation: spinZ 1s infinite ease-in-out;
 }

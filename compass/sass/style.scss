@@ -1,20 +1,11 @@
-@font-face {
-    font-family: 'gotham-ultra';
-    src: url("../fonts/.eot"), url("../fonts/gotham.woff") format("woff"), url("../fonts/gotham.ttf") format("truetype");
-
-    /* Safari, Android, iOS */
-    font-weight: 700;
-    font-style: normal;
-}
-
 body {
     background-image: url(../img/bg.jpg);
     background-size:auto;
     background-repeat: space;
-    text-shadow: 0 0 0.1em #b3caf6, 0 0 0.2em #b3caf6;
-    // background: radial-gradient(#898989, #121212);
-    font-family: 'gotham-ultra', 'Roboto', sans-serif;
-    color: aquamarine;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 900;
+    // color: aquamarine;
+    color:white;
     width: 102%;
     overflow-x: hidden;
 }
@@ -25,7 +16,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: aquamarine;
+    // color: aquamarine;
 }
 
 .navbar-static-top {
@@ -33,7 +24,7 @@ body {
 }
 
 .parallax {
-    height: 600px;
+    height: 700px;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed !important;
@@ -56,7 +47,7 @@ body {
     background-position: center center;
     background-size: cover;
     text-align: center;
-    color: aquamarine;
+    // color: aquamarine;
 }
 
 #video-viewport {
@@ -115,15 +106,6 @@ video {
     margin-bottom: 15px;
 }
 
-// .overlay h1 {
-//     text-align: center;
-//     padding-top: 100px;
-//     color: #fff;
-//     font-family: inherit;
-//     font-size: 60px;
-//     opacity: .8;
-// }
-
 .overlay p {
     text-align: center;
     width: 80%;
@@ -133,7 +115,7 @@ video {
     font-family: inherit;
     margin-bottom: 15px;
     display: inline;
-    color: aquamarine;
+    // color: aquamarine;
 }
 
 #skills {
@@ -150,18 +132,28 @@ video {
 .about {
     min-width: 700px;
     margin-top: 20px;
-    font-style: italic;
-    letter-spacing: 1px;
-    word-spacing: 13px;
+    // letter-spacing: 1px;
+    word-spacing: 15px;
     color: black;
+    text-shadow: 0 0 0.1em #b3caf6, 0 0 0.2em #b3caf6;
+}
+.about h3{
+    font-style: italic;
+    font-weight: 900;
+    font-size:30px;
 }
 
-.about img {
+.logo-img img{
+    height:150px;
+    border-radius:0px;
+}
+
+.story-icons img {
     height: 75px;
     border-radius: 0px;
     margin-top: 35px;
 }
-
+     
 #portfolio {
     background-image: url("../img/bg.jpg");
     background-size:auto;
@@ -183,32 +175,6 @@ video {
     background: black;
 }
 
-// .skills-row{
-//   background:white;
-//   width:100%;
-// }
-// header .intro-text {
-//   padding-top: 200px;
-//   padding-bottom: 50px;
-// }
-
-// header .intro-text .intro-lead-in {
-//   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-//   font-style: italic;
-//   font-size: 22px;
-//   line-height: 22px;
-//   margin-bottom: 25px;
-// }
-
-// header .intro-text .intro-heading {
-//   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-//   text-transform: uppercase;
-//   font-weight: 700;
-//   font-size: 50px;
-//   line-height: 50px;
-//   margin-bottom: 25px;
-// }
-
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
@@ -224,10 +190,11 @@ video {
 }
 
 .quote{
-    margin-top: 100px;
+    margin-top: 150px;
     color:black;
-    font-size: 40px;
+    font-size: 53px;
     min-width:75%;
+    text-shadow: 0 0 0.1em #b3caf6, 0 0 0.2em #b3caf6;
 }
 
 // #portfolio{
@@ -245,7 +212,7 @@ video {
 h2.section-heading {
     margin-top: 50px;
     font-weight: bold;
-    color: aquamarine;
+    color: white;
 }
 
 #portfolio .portfolio-item {
