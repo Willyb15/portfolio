@@ -24,7 +24,7 @@ body {
 }
 
 .parallax {
-    height: 700px;
+    height: 800px;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed !important;
@@ -130,7 +130,7 @@ video {
 }
 
 .about {
-    min-width: 700px;
+    min-width: 800px;
     margin-top: 20px;
     // letter-spacing: 1px;
     word-spacing: 15px;
@@ -168,6 +168,7 @@ video {
 }
 
 .white-container {
+    font-family:cursive;
     width: 100%;
 
     // margin-top: -5px;
@@ -261,16 +262,16 @@ h2.section-heading {
     text-decoration: none;
 }
 
-#loader {
-    position: fixed;
-    z-index: 10000;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background: radial-gradient(#898989, #121212);
-    text-align: center;
-}
+// #loader {
+//     position: fixed;
+//     z-index: 10000;
+//     top: 0;
+//     left: 0;
+//     height: 100vh;
+//     width: 100%;
+//     background: radial-gradient(#898989, #121212);
+//     text-align: center;
+// }
 
 .atom-text {
     position: absolute;
