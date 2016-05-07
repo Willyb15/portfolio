@@ -24,7 +24,7 @@ body {
 }
 
 .parallax {
-    height: 800px;
+    height: 750px;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed !important;
@@ -75,12 +75,16 @@ video {
 .willb {
     text-align: center;
     padding-top: 100px;
-
     // color: #fff;
     font-family: inherit;
     font-size: 50px;
 
     // opacity: .8;
+}
+.willb img{
+        border-radius: 0;
+    border: 5px solid white;
+    margin-bottom: 20px;
 }
 
 .icon img {
@@ -135,7 +139,7 @@ video {
     // letter-spacing: 1px;
     word-spacing: 15px;
     color: black;
-    text-shadow: 0 0 0.1em #b3caf6, 0 0 0.2em #b3caf6;
+    text-shadow: 0 0 0.5em #b3caf6, 0 0 0.5em #b3caf6;
 }
 .about h3{
     font-style: italic;
@@ -146,6 +150,7 @@ video {
 .logo-img img{
     height:150px;
     border-radius:0px;
+    border: 5px solid black;
 }
 
 .story-icons img {
@@ -166,13 +171,21 @@ video {
     // margin-top: 250px;
     // margin-bottom: 250px;
 }
+.primary{
+    border-top: 3px solid #eee;
+    margin-left: -15px;
+}
+
+.hudson{
+    color:black;
+}
 
 .white-container {
     font-family:cursive;
     width: 100%;
 
     // margin-top: -5px;
-    height: 174px;
+    height: 200px;
     background: black;
 }
 
@@ -190,12 +203,21 @@ video {
     margin-left: -25px;
 }
 
-.quote{
-    margin-top: 150px;
+#quote{
     color:black;
-    font-size: 53px;
+}
+.quote{
+    margin-top: 200px;
+    color:black;
+    font-size: 36px;
     min-width:75%;
-    text-shadow: 0 0 0.1em #b3caf6, 0 0 0.2em #b3caf6;
+    text-shadow: 0 0 0.2em #b3caf6, 0 0 0.2em #b3caf6;
+    //     min-width: 800px;
+    // margin-top: 20px;
+    // // letter-spacing: 1px;
+    // word-spacing: 15px;
+    // color: black;
+    
 }
 
 // #portfolio{
@@ -262,16 +284,16 @@ h2.section-heading {
     text-decoration: none;
 }
 
-// #loader {
-//     position: fixed;
-//     z-index: 10000;
-//     top: 0;
-//     left: 0;
-//     height: 100vh;
-//     width: 100%;
-//     background: radial-gradient(#898989, #121212);
-//     text-align: center;
-// }
+#loader {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(#898989, #121212);
+    text-align: center;
+}
 
 .atom-text {
     position: absolute;
