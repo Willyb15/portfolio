@@ -37,17 +37,20 @@ $('.overlay').removeClass('wow pulse animated');
 }, 5500);
 setInterval(function(){
 $('.logo-img').addClass('wow tada animated');
-}, 5000);
+}, 8000);
 setInterval(function(){
 $('.logo-img').removeClass('wow tada animated');
-}, 6000);
+}, 9000);
 
-setInterval(function(){
-$('.revolving-row').removeClass('wow zoomInUp animated').addClass('wow zoomOutDown animated');
-}, 13000);
-setInterval(function(){
-$('.revolving-row').removeClass('wow zoomOutDown animated').addClass('wow zoomInUp animated');
-}, 13001);
+// setInterval(function(){
+// $('.revolving-row').addClass('wow zoomOutDown animated');
+// }, 13000);
+// setInterval(function(){
+// $('.revolving-row').removeClass('wow zoomOutDown animated');
+// }, 14000);
+
+// .addClass('wow zoomInUp animated');
+// }, 13000);
 
 // .removeClass('wow zoomOutDown animated').removeClass('wow zoomInUp animated');
 // Fixes n
