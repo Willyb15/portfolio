@@ -29,6 +29,28 @@ setTimeout(function() {
     $(".icon").css("visibility", "visible").hide().fadeIn(6000);
 }, 3500);
 
+setInterval(function(){
+$('.overlay').addClass('wow pulse animated');
+}, 5000);
+setInterval(function(){
+$('.overlay').removeClass('wow pulse animated');
+}, 5500);
+setInterval(function(){
+$('.logo-img').addClass('wow tada animated');
+}, 5000);
+setInterval(function(){
+$('.logo-img').removeClass('wow tada animated');
+}, 6000);
+
+setInterval(function(){
+$('.revolving-row').removeClass('wow zoomInUp animated').addClass('wow zoomOutDown animated');
+}, 13000);
+setInterval(function(){
+$('.revolving-row').removeClass('wow zoomOutDown animated').addClass('wow zoomInUp animated');
+}, 13001);
+
+// .removeClass('wow zoomOutDown animated').removeClass('wow zoomInUp animated');
+// Fixes n
 // Fixes navbar when scrolled past headerHeight - headerHeight should === #home height 
 var initialHeight = (window.innerHeight);
 $(window).bind('scroll', function() {
