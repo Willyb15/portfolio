@@ -23,7 +23,9 @@
 	<!-- JS for bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<!-- Custom JavaScript -->
+	<script src="js/wow.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script>new WOW().init();</script>
 	
 	<body>
 		<div id="loader" class="circles">
@@ -113,9 +115,11 @@
 			<!-- paralax divider -->
 			<div class="parallax text-center" style="background-image: url(img/bdtbw.jpg);">
 				<div class="container text-center size-title about">
-					<div class="logo-img"><img src="img/logo1.png"></div>
-					<h3 class="tit">William received his BBA from The University of Georgia and most recently was Operations Manager of The Snake River Brewing Company, Ski Instructor at Jackson Hole Mountain Resort, and Guide at Mad River Boat Trips. Currently he is enrolled in an immersive web-development program at Digital Crafts. His initial skillset was focused around JavaScript, jQuery, HTML, and CSS. Since then he has embraced the backend by learning the LAMP and MEAN stacks. There is still much to be learned.</h3>
-					<div class=story-icons>
+					<div  class="wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
+						<div class="logo-img"><img src="img/logo1.png"></div>
+					</div>
+					<h3 class="tit wow zoomInUp" data-wow-duration="2s" data-wow-delay=".1s">William received his BBA from The University of Georgia and most recently was Operations Manager of The Snake River Brewing Company, Ski Instructor at Jackson Hole Mountain Resort, and Guide at Mad River Boat Trips. Currently he is enrolled in an immersive web-development program at Digital Crafts. His initial skillset was focused around JavaScript, jQuery, HTML, and CSS. Since then he has embraced the backend by learning the LAMP and MEAN stacks. There is still much to be learned.</h3>
+					<div class="story-icons wow slideInRight" data-wow-duration="2s" data-wow-delay=".1s">
 						<img src="img/wm.jpg">
 						<img src="img/uga.png">
 						<img src="img/srb.png">
@@ -141,7 +145,7 @@
 				<div class="container">
 					<div class="row revolving-row">
 						<div id="wrapper">
-							<div id="image">
+							<div id="image" class="wow rollIn">
 								<div class="image i1"><img src="img/html5.png"></div>
 								<div class="image i2"><img src="img/css.png"></div>
 								<div class="image i3"><img src="img/js.png"></div>
@@ -160,19 +164,19 @@
 			<div id="quote" class="container white-container">
 				<div class="row skills-row">
 					<div class="col-sm-12 text-center hudson">
-					<h2 class="section-heading" style="visibility: hidden;">Blah</h2>	
-					<hr class="primary">
+						<h2 class="section-heading" style="visibility: hidden;">Blah</h2>
+						<hr class="primary">
 					</div>
 				</div>
 			</div>
 			<!-- Paralax Divider -->
 			<div class="parallax middle text-center" style="background-image: url(img/hudson.png);">
 				</style>
-				<div class="container text-center size-title quote">
-					<hr class="primary">
+				<div class="container text-center size-title quote wow bounceInDown" data-wow-duration="3s" data-wow-delay=".2s">
+					<hr class="primary wow slideInLeft" data-wow-duration="3s" data-wow-delay=".2s">
 					<p class="tit">The depth of any story is proportionate to the protagonist's commitment to their goal, the complexity of the problem, and the grace of the solution.</p>
 					<h4 class="display-2">-Steve House</h4>
-					<hr class="primary">
+					<hr class="primary wow slideInRight" data-wow-duration="3s" data-wow-delay=".2s">
 				</div>
 			</div>
 			<!-- White Section Divider PROJECTS -->
@@ -188,7 +192,7 @@
 			<section id="portfolio" class="bg-light-gray">
 				<div class="container">
 					<div class="col-md-12">
-						<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="col-md-4 col-sm-6 portfolio-item wow zoomInLeft">
 							<figure class="snip1234">
 								<img src="img/weather.png" alt="sample2"/>
 								<figcaption>
@@ -198,7 +202,7 @@
 									</figcaption>
 								</figure>
 							</div>
-							<div class="col-md-4 col-sm-6 portfolio-item">
+							<div class="col-md-4 col-sm-6 portfolio-item wow zoomInUp">
 								<figure class="snip1234">
 									<img src="img/finance.png">
 									<figcaption>
@@ -208,7 +212,7 @@
 										</figcaption>
 									</figure>
 								</div>
-								<div class="col-md-4 col-sm-6 portfolio-item">
+								<div class="col-md-4 col-sm-6 portfolio-item wow zoomInRight">
 									<figure class="snip1234">
 										<img src="img/usa.png"/>
 										<figcaption>
@@ -219,7 +223,7 @@
 										</figure>
 									</div>
 								</div>
-								<div class="col-md-4 col-sm-6 portfolio-item">
+								<div class="col-md-4 col-sm-6 portfolio-item wow zoomInDown">
 									<figure class="snip1234">
 										<img src="img/swbj3.png">
 										<figcaption>
@@ -230,7 +234,7 @@
 										</figure>
 									</div>
 									
-									<div class="col-md-4 col-sm-6 portfolio-item">
+									<div class="col-md-4 col-sm-6 portfolio-item wow zoomInUp">
 										<!-- <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal"> -->
 										<figure class="snip1234">
 											<img src="img/mg.png">
@@ -241,7 +245,7 @@
 												</figcaption>
 											</figure>
 										</div>
-										<div class="col-md-4 col-sm-6 portfolio-item">
+										<div class="col-md-4 col-sm-6 portfolio-item wow zoomInRight">
 											<figure class="snip1234">
 												<img src="img/sg.png" alt="sample2"/>
 												<figcaption>
@@ -251,7 +255,7 @@
 													</figcaption>
 												</figure>
 											</div>
-											<div class="col-md-4 col-sm-6 portfolio-item">
+											<div class="col-md-4 col-sm-6 portfolio-item wow zoomInLeft">
 												<figure class="snip1234">
 													<img src="img/movie.png" alt="sample2"/>
 													<figcaption>
@@ -261,7 +265,7 @@
 														</figcaption>
 													</figure>
 												</div>
-												<div class="col-md-4 col-sm-6 portfolio-item">
+												<div class="col-md-4 col-sm-6 portfolio-item wow zoomInRight">
 													<figure class="snip1234">
 														<img src="img/finance.png">
 														<figcaption>
@@ -271,7 +275,7 @@
 															</figcaption>
 														</figure>
 													</div>
-													<div class="col-md-4 col-sm-6 portfolio-item">
+													<div class="col-md-4 col-sm-6 portfolio-item wow zoomInUp">
 														<figure class="snip1234">
 															<img src="img/usa.png"/>
 															<figcaption>
@@ -358,9 +362,9 @@
 																	</div></a>
 																	
 																	<!-- <div class="col-sm-3 text-center">
-																				<a href="mailto:william.steen.bryant@gmail.com">
-																						<img src="img/gmail2.png">
-																						<p>william.steen.bryant@gmail.com</p>
+																					<a href="mailto:william.steen.bryant@gmail.com">
+																								<img src="img/gmail2.png">
+																								<p>william.steen.bryant@gmail.com</p>
 																		</div></a> -->
 																		
 																		<div class="col-sm-3 text-center icon-div">

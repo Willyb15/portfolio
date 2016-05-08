@@ -3,7 +3,6 @@ setTimeout(function() {
     $('#loader').hide();
     $(window).scrollTop(0);
 }, 3000);
-
 var intFrameHeight = window.innerHeight;
 
 // This is Where the #home Text Fades In
@@ -72,11 +71,11 @@ $(window).bind('scroll', function() {
 
 
 // Makes The Project section zoom in when scrolled past 2700
-$(window).bind('scroll', function() {
-        if ($(window).scrollTop() > innerHeight + 2000) {
-            $('.portfolio-item').addClass('wow zoomInDown animated');
-        }
-    });
+// $(window).bind('scroll', function() {
+//         if ($(window).scrollTop() > innerHeight + 2000) {
+//             $('.portfolio-item').addClass('wow zoomInDown animated');
+//         }
+//     });
 
 // Makes The Project section zoom in when scrolled past 2700
 // $(window).bind('scroll', function() {
