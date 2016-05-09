@@ -28,12 +28,16 @@ setTimeout(function() {
     $(".icon").css("visibility", "visible").hide().fadeIn(6000);
 }, 3500);
 
+setTimeout(function() {
 setInterval(function(){
 $('.overlay').addClass('wow pulse animated');
-}, 5000);
+}, 15000);
+}, 1000);
+setTimeout(function() {
 setInterval(function(){
 $('.overlay').removeClass('wow pulse animated');
-}, 5500);
+}, 15300);
+}, 1000);
 setInterval(function(){
 $('.logo-img').addClass('wow tada animated');
 }, 8000);
