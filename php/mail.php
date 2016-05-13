@@ -2,7 +2,7 @@
        require_once('/usr/share/php/libphp-phpmailer/class.phpmailer.php');
        $mail = new PHPMailer(); // defaults to using php "mail()"
        $body = $_POST['message']; //euqal to req.body.message
-       $mail->AddReplyTo("userEmail","Will Bryant");
+       $mail->AddReplyTo($_POST['email'], $_POST['name']);
        $mail->SetFrom($_POST['email'], $_POST['name']);
        $address = "william.steen.bryant@gmail.com";
        $mail->AddAddress($address, "Will Bryant");
