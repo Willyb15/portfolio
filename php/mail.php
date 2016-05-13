@@ -11,7 +11,7 @@
        if(!$mail->Send()) {
        echo "Mailer Error: " . $mail->ErrorInfo;
        } else {
-       echo "Message sent!";
+       header("Location: http://willybman.com/php/thankyou.php");
        }
 
 // require_once "vendor/autoload.php";
