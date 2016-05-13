@@ -427,3 +427,12 @@ h2.section-heading {
 .labels {
   width: 100%;
 }
+
+/* line 437, ../compass/sass/style.scss */
+#thankyou {
+  font-family: cursive;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
