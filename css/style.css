@@ -205,7 +205,7 @@ video {
 
 /* line 216, ../compass/sass/style.scss */
 .story-icons:hover {
-  transform: scale(2);
+  transform: scale(1.8);
 }
 
 /* line 222, ../compass/sass/style.scss */
@@ -334,7 +334,7 @@ h2.section-heading {
 
 /* line 353, ../compass/sass/style.scss */
 .portfolio-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* line 357, ../compass/sass/style.scss */
